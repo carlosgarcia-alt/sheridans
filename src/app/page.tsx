@@ -21,9 +21,11 @@ export default function Home() {
               </h1>
               
               <div className="space-y-3 sm:space-y-4 max-w-2xl">
-                <p className="text-xl sm:text-2xl lg:text-3xl font-semibold text-neon-green glow-green">
-                  Don't call it moments, call it life
-                </p>
+                <div className="text-center sm:text-left mb-4">
+                  <p className="text-lg sm:text-xl lg:text-2xl font-light text-neon-green glow-green italic">
+                    "Don't call it moments, call it life"
+                  </p>
+                </div>
                 
                 <p className="text-base sm:text-lg lg:text-xl text-gray-300 leading-relaxed">
                   Sheridans combina la esencia de la coctelería callejera con nuestro toque especial, donde cada trago se prepara con intención y personalidad.
