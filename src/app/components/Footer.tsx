@@ -65,6 +65,9 @@ export default function Footer() {
               <a href="/" className="block text-gray-300 hover:text-neon-pink transition-colors text-sm">
                 Inicio
               </a>
+              <a href="/nosotros" className="block text-gray-300 hover:text-neon-pink transition-colors text-sm">
+                Nosotros
+              </a>
               <a href="/menu" className="block text-gray-300 hover:text-neon-pink transition-colors text-sm">
                 Menú
               </a>
