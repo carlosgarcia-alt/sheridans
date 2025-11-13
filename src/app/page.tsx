@@ -15,32 +15,31 @@ export default function Home() {
                 <span className="text-neon-pink glow-pink">Sheridan's</span>
               </h1>
               
-              <div className="space-y-4">
+              <div className="space-y-4 max-w-2xl">
                 <p className="text-2xl lg:text-3xl font-semibold text-neon-green glow-green">
                   Don't call it moments, call it life
                 </p>
                 
-                <p className="text-lg lg:text-xl text-gray-300 max-w-2xl leading-relaxed">
+                <p className="text-lg lg:text-xl text-gray-300 leading-relaxed">
                   Sheridans combina la esencia de la coctelería callejera con nuestro toque especial, donde cada trago se prepara con intención y personalidad.
                 </p>
-              </div>
-              
-              <div className="text-white text-3xl font-bold">Since 2023</div>
-            </div>
-            
-            {/* Features */}
-            <div className="flex justify-center items-center gap-8 mt-12">
-              <div className="text-center">
-                <div className="text-neon-green text-3xl">Cócteles Únicos</div>
-              </div>
-              <div className="w-px h-12 bg-gray-400"></div>
-              <div className="text-center">
-                <div className="text-neon-pink text-3xl">Noches Inolvidables</div>
-              </div>
-              <div className="w-px h-12 bg-gray-400"></div>
-              <div className="text-center">
-                <div className="text-purple text-3xl">Experiencia Total</div>
-              </div>
+                
+                <div className="text-white text-3xl font-bold">Since 2023</div>
+                
+                {/* Features */}
+                <div className="flex justify-center items-center gap-8">
+                  <div className="text-center">
+                    <div className="text-neon-green text-3xl">Cócteles Únicos</div>
+                  </div>
+                  <div className="w-px h-12 bg-gray-400"></div>
+                  <div className="text-center">
+                    <div className="text-neon-pink text-3xl">Noches Inolvidables</div>
+                  </div>
+                  <div className="w-px h-12 bg-gray-400"></div>
+                  <div className="text-center">
+                    <div className="text-purple text-3xl">Experiencia Total</div>
+                  </div>
+                </div>
             </div>
             
             {/* Button */}
