@@ -48,7 +48,7 @@ export default function Nosotros() {
             {/* Values */}
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center">
-                <div className="text-purple mb-4">
+                <div className="text-purple mb-4 drop-shadow-[0_0_10px_rgba(147,51,234,0.8)]">
                   <svg className="w-12 h-12 mx-auto" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                   </svg>
@@ -58,7 +58,7 @@ export default function Nosotros() {
               </div>
               
               <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center">
-                <div className="text-purple mb-4">
+                <div className="text-purple mb-4 drop-shadow-[0_0_10px_rgba(147,51,234,0.8)]">
                   <svg className="w-12 h-12 mx-auto" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                   </svg>
@@ -68,7 +68,7 @@ export default function Nosotros() {
               </div>
               
               <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center">
-                <div className="text-purple mb-4">
+                <div className="text-purple mb-4 drop-shadow-[0_0_10px_rgba(147,51,234,0.8)]">
                   <svg className="w-12 h-12 mx-auto" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                   </svg>
