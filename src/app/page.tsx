@@ -13,16 +13,17 @@ export default function Home() {
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight">
                 <span className="text-neon-pink glow-pink">Sheridan's</span>
-                <br />
-                <span className="text-3xl lg:text-4xl font-semibold">
-                  Coctelería Premium para 
-                  <span className="text-neon-green glow-green"> Eventos Privados</span>
-                </span>
               </h1>
               
-              <p className="text-xl text-gray-300 max-w-lg leading-relaxed">
-                Llevamos una experiencia de bebidas de alto nivel directamente a tu celebración.
-              </p>
+              <div className="space-y-4">
+                <p className="text-2xl lg:text-3xl font-semibold text-neon-green glow-green">
+                  Don't call it moments, call it life
+                </p>
+                
+                <p className="text-lg lg:text-xl text-gray-300 max-w-2xl leading-relaxed">
+                  Sheridans combina la esencia de la coctelería callejera con nuestro toque especial, donde cada trago se prepara con intención y personalidad.
+                </p>
+              </div>
               
               <button className="bg-gradient-to-r from-neon-pink to-purple hover:from-purple hover:to-neon-pink text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 glow transform hover:scale-105">
                 Reservar Fecha
