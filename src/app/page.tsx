@@ -40,11 +40,12 @@ export default function Home() {
                     <div className="text-purple text-3xl">Experiencia Total</div>
                   </div>
                 </div>
+              </div>
             </div>
             
             {/* Button */}
             <div className="max-w-2xl flex justify-end mt-8">
-              <div className="bg-pink-500 text-white px-6 py-3 rounded-full flex items-center gap-2">
+              <div className="bg-neon-pink text-white px-6 py-3 rounded-full flex items-center gap-2">
                 <span>Conoce Más</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
