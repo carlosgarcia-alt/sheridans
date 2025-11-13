@@ -25,14 +25,11 @@ export default function Nosotros() {
             {/* Our Story */}
             <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 border border-purple/30">
               <h2 className="text-3xl font-bold text-neon-pink mb-6">Nuestra Historia</h2>
-              <p className="text-lg text-gray-300 leading-relaxed mb-4">
-                Desde 2023, Sheridan's ha sido más que un bar - es un espacio donde la coctelería callejera 
-                se encuentra con la creatividad y la pasión. Nacimos con la visión de crear experiencias 
-                únicas que van más allá de una simple bebida.
+              <p className="text-lg text-gray-300 leading-relaxed">
+                Desde 2023, Sheridan's nació como un bar pensado para nuestros amigos: un espacio donde la coctelería se mezcla con la espontaneidad de la calle, la vibra de la fiesta, la creatividad y la pasión. Surgimos con la intención de convertir nuestro lugar en el favorito de todos, gracias a nuestro estilo y a nuestro sabor. Hoy, llevamos esa misma experiencia directamente a tu evento.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Cada cóctel que preparamos lleva nuestra esencia: autenticidad, calidad y ese toque especial 
-                que hace que cada momento se convierta en un recuerdo inolvidable.
+                Cada cóctel que preparamos lleva nuestra esencia: autenticidad, calidad y ese toque especial que nos caracteriza.
               </p>
             </div>
 
