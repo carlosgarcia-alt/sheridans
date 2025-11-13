@@ -13,9 +13,9 @@ export default function Home() {
             <div className="space-y-6">
               <h1 className="text-6xl lg:text-8xl leading-tight">
                 <img 
-                  src="/sheridans-title.jpeg" 
+                  src="/sheridans-title.png" 
                   alt="Sheridans" 
-                  className="h-20 lg:h-32 object-contain mix-blend-screen"
+                  className="h-20 lg:h-32 object-contain"
                 />
               </h1>
               
