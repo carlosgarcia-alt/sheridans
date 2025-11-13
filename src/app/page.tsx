@@ -50,12 +50,12 @@ export default function Home() {
             
             {/* Button */}
             <div className="max-w-2xl flex justify-center sm:justify-end mt-6 sm:mt-8">
-              <div className="bg-transparent border-2 border-neon-pink text-neon-pink px-6 py-3 rounded-full flex items-center gap-2 hover:bg-neon-pink hover:text-white transition-colors">
+              <a href="/nosotros" className="bg-transparent border-2 border-neon-pink text-neon-pink px-6 py-3 rounded-full flex items-center gap-2 hover:bg-neon-pink hover:text-white transition-colors">
                 <span>Conoce Más</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
-              </div>
+              </a>
             </div>
           </div>
           
