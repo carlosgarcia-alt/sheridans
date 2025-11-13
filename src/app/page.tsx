@@ -27,7 +27,7 @@ export default function Home() {
                 <div className="text-white text-3xl font-bold">Since 2023</div>
                 
                 {/* Features */}
-                <div className="flex items-center gap-8">
+                <div className="flex items-center gap-4">
                   <div className="text-center">
                     <div className="text-neon-green text-2xl">Cócteles Únicos</div>
                   </div>
