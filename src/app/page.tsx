@@ -25,21 +25,21 @@ export default function Home() {
                 </p>
               </div>
               
-              <div className="bg-gradient-to-r from-neon-pink/20 to-purple/20 backdrop-blur-sm p-4 rounded-full border border-neon-pink/30 glow-pink inline-block">
-                <span className="text-neon-pink font-bold text-lg glow-pink">Since 2023</span>
-              </div>
+              <div className="text-neon-pink text-3xl glow-pink">Since 2023</div>
             </div>
             
             {/* Features */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+            <div className="flex justify-center items-center gap-8 mt-12">
               <div className="text-center">
-                <div className="text-neon-green text-3xl font-bold">Cócteles Únicos</div>
+                <div className="text-neon-green text-3xl">Cócteles Únicos</div>
               </div>
+              <div className="w-px h-12 bg-gray-400"></div>
               <div className="text-center">
-                <div className="text-neon-pink text-3xl font-bold">Noches Inolvidables</div>
+                <div className="text-neon-pink text-3xl">Noches Inolvidables</div>
               </div>
+              <div className="w-px h-12 bg-gray-400"></div>
               <div className="text-center">
-                <div className="text-purple text-3xl font-bold">Experiencia Total</div>
+                <div className="text-purple text-3xl">Experiencia Total</div>
               </div>
             </div>
           </div>
