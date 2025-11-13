@@ -38,7 +38,7 @@ export default function Home() {
                   </div>
                   <div className="w-px h-12 bg-gray-400"></div>
                   <div className="text-center">
-                    <div className="text-neon-pink text-2xl">Noches Inolvidables</div>
+                    <div className="text-neon-pink text-2xl">Eventos Inolvidables</div>
                   </div>
                   <div className="w-px h-12 bg-gray-400"></div>
                   <div className="text-center">
