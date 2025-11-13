@@ -6,50 +6,50 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-dark-purple via-purple to-dark-purple">
       <Header />
       {/* Hero Section */}
-      <div className="container mx-auto px-4 pt-16">
+      <div className="container mx-auto px-4 sm:px-6 pt-20 sm:pt-16">
         <div className="grid lg:grid-cols-2 gap-8 items-center min-h-screen">
           
           {/* Left Content */}
-          <div className="space-y-8">
-            <div className="space-y-6">
-              <h1 className="text-6xl lg:text-8xl leading-tight -ml-12">
+          <div className="space-y-6 sm:space-y-8">
+            <div className="space-y-4 sm:space-y-6">
+              <h1 className="text-4xl sm:text-6xl lg:text-8xl leading-tight -ml-4 sm:-ml-12">
                 <img 
                   src="/sheridans-title.png" 
                   alt="Sheridans" 
-                  className="h-20 lg:h-32 object-contain"
+                  className="h-16 sm:h-20 lg:h-32 object-contain"
                 />
               </h1>
               
-              <div className="space-y-4 max-w-2xl">
-                <p className="text-2xl lg:text-3xl font-semibold text-neon-green glow-green">
+              <div className="space-y-3 sm:space-y-4 max-w-2xl">
+                <p className="text-xl sm:text-2xl lg:text-3xl font-semibold text-neon-green glow-green">
                   Don't call it moments, call it life
                 </p>
                 
-                <p className="text-lg lg:text-xl text-gray-300 leading-relaxed">
+                <p className="text-base sm:text-lg lg:text-xl text-gray-300 leading-relaxed">
                   Sheridans combina la esencia de la coctelería callejera con nuestro toque especial, donde cada trago se prepara con intención y personalidad.
                 </p>
                 
-                <div className="text-white text-3xl font-bold">Since 2023</div>
+                <div className="text-white text-2xl sm:text-3xl font-bold">Since 2023</div>
                 
                 {/* Features */}
-                <div className="flex items-center gap-4">
-                  <div className="text-center">
-                    <div className="text-neon-green text-2xl">Cócteles Únicos</div>
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
+                  <div className="text-center sm:text-left">
+                    <div className="text-neon-green text-lg sm:text-2xl">Cócteles Únicos</div>
                   </div>
-                  <div className="w-px h-12 bg-gray-400"></div>
-                  <div className="text-center">
-                    <div className="text-neon-pink text-2xl">Eventos Inolvidables</div>
+                  <div className="hidden sm:block w-px h-12 bg-gray-400"></div>
+                  <div className="text-center sm:text-left">
+                    <div className="text-neon-pink text-lg sm:text-2xl">Eventos Inolvidables</div>
                   </div>
-                  <div className="w-px h-12 bg-gray-400"></div>
-                  <div className="text-center">
-                    <div className="text-purple text-2xl">Experiencia Total</div>
+                  <div className="hidden sm:block w-px h-12 bg-gray-400"></div>
+                  <div className="text-center sm:text-left">
+                    <div className="text-purple text-lg sm:text-2xl">Experiencia Total</div>
                   </div>
                 </div>
               </div>
             </div>
             
             {/* Button */}
-            <div className="max-w-2xl flex justify-end mt-8">
+            <div className="max-w-2xl flex justify-center sm:justify-end mt-6 sm:mt-8">
               <div className="bg-transparent border-2 border-neon-pink text-neon-pink px-6 py-3 rounded-full flex items-center gap-2 hover:bg-neon-pink hover:text-white transition-colors">
                 <span>Conoce Más</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
