@@ -37,9 +37,7 @@ export default function Nosotros() {
             <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 border border-purple/30">
               <h2 className="text-3xl font-bold text-neon-green mb-6">Nuestra Misión</h2>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Transformar cada visita en una experiencia memorable, donde la calidad de nuestros cócteles 
-                se combina con un ambiente único que celebra la vida, la amistad y los buenos momentos. 
-                No solo servimos bebidas, creamos conexiones.
+                Romper con la coctelería tradicional a traves de nuestros sabores, definiendo una nueva propuesta con mezclas creativas, una vibra fresca y detalles que convierten cualquier evento en algo fuera de lo común.
               </p>
             </div>
 
