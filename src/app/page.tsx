@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-6">
-              <h1 className="text-6xl lg:text-8xl leading-tight ml-1">
+              <h1 className="text-6xl lg:text-8xl leading-tight -ml-12">
                 <img 
                   src="/sheridans-title.png" 
                   alt="Sheridans" 
@@ -72,6 +73,8 @@ export default function Home() {
           backgroundPosition: 'center',
         }}
       />
+      
+      <Footer />
     </div>
   );
 }
