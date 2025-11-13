@@ -25,7 +25,7 @@ export default function Home() {
                 </p>
               </div>
               
-              <div className="text-neon-pink text-3xl glow-pink">Since 2023</div>
+              <div className="text-white text-3xl font-bold">Since 2023</div>
             </div>
             
             {/* Features */}
@@ -41,6 +41,13 @@ export default function Home() {
               <div className="text-center">
                 <div className="text-purple text-3xl">Experiencia Total</div>
               </div>
+            </div>
+            
+            {/* Button */}
+            <div className="mt-12 text-center">
+              <button className="bg-gradient-to-r from-neon-pink to-purple hover:from-purple hover:to-neon-pink text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 glow transform hover:scale-105">
+                Conoce Más
+              </button>
             </div>
           </div>
           
