@@ -18,32 +18,37 @@ export default function Header() {
             </a>
             
             {/* Servicios Dropdown */}
-            <div className="relative">
-              <button
-                onMouseEnter={() => setIsDropdownOpen(true)}
-                onMouseLeave={() => setIsDropdownOpen(false)}
-                className="text-white hover:text-neon-pink px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium transition-colors flex items-center gap-1"
-              >
+            <div 
+              className="relative"
+              onMouseEnter={() => setIsDropdownOpen(true)}
+              onMouseLeave={() => setIsDropdownOpen(false)}
+            >
+              <button className="text-white hover:text-neon-pink px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium transition-colors flex items-center gap-1">
                 Servicios
-                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className={`w-3 h-3 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
               
               {isDropdownOpen && (
-                <div
-                  onMouseEnter={() => setIsDropdownOpen(true)}
-                  onMouseLeave={() => setIsDropdownOpen(false)}
-                  className="absolute top-full left-0 mt-1 w-40 bg-black/90 backdrop-blur-sm border border-purple/30 rounded-md shadow-lg"
-                >
-                  <a href="/menu" className="block text-white hover:text-neon-pink hover:bg-purple/20 px-4 py-2 text-xs sm:text-sm transition-colors">
-                    Menú
+                <div className="absolute top-full left-0 mt-2 w-44 bg-black/95 backdrop-blur-md border border-neon-pink/30 rounded-lg shadow-2xl overflow-hidden">
+                  <a href="/menu" className="block text-white hover:text-neon-pink hover:bg-gradient-to-r hover:from-purple/30 hover:to-neon-pink/20 px-4 py-3 text-xs sm:text-sm transition-all duration-200 border-b border-purple/20 last:border-b-0">
+                    <div className="flex items-center gap-2">
+                      <span>🍸</span>
+                      Menú
+                    </div>
                   </a>
-                  <a href="/paquetes" className="block text-white hover:text-neon-pink hover:bg-purple/20 px-4 py-2 text-xs sm:text-sm transition-colors">
-                    Paquetes
+                  <a href="/paquetes" className="block text-white hover:text-neon-pink hover:bg-gradient-to-r hover:from-purple/30 hover:to-neon-pink/20 px-4 py-3 text-xs sm:text-sm transition-all duration-200 border-b border-purple/20 last:border-b-0">
+                    <div className="flex items-center gap-2">
+                      <span>📦</span>
+                      Paquetes
+                    </div>
                   </a>
-                  <a href="/galeria" className="block text-white hover:text-neon-pink hover:bg-purple/20 px-4 py-2 text-xs sm:text-sm transition-colors">
-                    Galería
+                  <a href="/galeria" className="block text-white hover:text-neon-pink hover:bg-gradient-to-r hover:from-purple/30 hover:to-neon-pink/20 px-4 py-3 text-xs sm:text-sm transition-all duration-200 border-b border-purple/20 last:border-b-0">
+                    <div className="flex items-center gap-2">
+                      <span>📸</span>
+                      Galería
+                    </div>
                   </a>
                 </div>
               )}
