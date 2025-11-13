@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -23,13 +23,18 @@ body {
   filter: drop-shadow(0 0 15px rgba(255, 45, 249, 0.6));
 }
 
-.neon-signature {
-  font-family: 'Dancing Script', cursive;
+.neon-tube {
+  font-family: 'Kaushan Script', cursive;
+  color: #ff2df9;
   text-shadow: 
-    0 0 5px rgba(255, 45, 249, 0.8),
-    0 0 10px rgba(255, 45, 249, 0.6),
-    0 0 20px rgba(255, 45, 249, 0.4),
-    0 0 40px rgba(255, 45, 249, 0.2);
+    0 0 2px #ff2df9,
+    0 0 5px #ff2df9,
+    0 0 10px #ff2df9,
+    0 0 20px #ff2df9,
+    0 0 35px #ff2df9,
+    0 0 50px #ff2df9;
+  filter: brightness(1.2);
+  letter-spacing: 0.05em;
 }
 
 .glow-green {
