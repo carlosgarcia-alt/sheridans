@@ -25,24 +25,25 @@ export default function Home() {
                 </p>
               </div>
               
-              <button className="bg-gradient-to-r from-neon-pink to-purple hover:from-purple hover:to-neon-pink text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 glow transform hover:scale-105">
-                Reservar Fecha
-              </button>
+              <div className="bg-gradient-to-r from-neon-pink/20 to-purple/20 backdrop-blur-sm p-4 rounded-full border border-neon-pink/30 glow-pink inline-block">
+                <span className="text-neon-pink font-bold text-lg glow-pink">Since 2023</span>
+                <span className="text-white ml-2">✨ Crafting vibes</span>
+              </div>
             </div>
             
             {/* Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
               <div className="text-center">
-                <div className="text-neon-green text-3xl font-bold">50+</div>
-                <div className="text-gray-400">Eventos Realizados</div>
+                <div className="text-neon-green text-3xl font-bold">🍸</div>
+                <div className="text-gray-400">Signature Cocktails</div>
               </div>
               <div className="text-center">
-                <div className="text-neon-pink text-3xl font-bold">100%</div>
-                <div className="text-gray-400">Satisfacción</div>
+                <div className="text-neon-pink text-3xl font-bold">🎉</div>
+                <div className="text-gray-400">Unforgettable Nights</div>
               </div>
               <div className="text-center">
-                <div className="text-purple text-3xl font-bold">24/7</div>
-                <div className="text-gray-400">Disponibilidad</div>
+                <div className="text-purple text-3xl font-bold">✨</div>
+                <div className="text-gray-400">Premium Experience</div>
               </div>
             </div>
           </div>
