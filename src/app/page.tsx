@@ -21,7 +21,7 @@ export default function Home() {
               </h1>
               
               <div className="space-y-3 sm:space-y-4 max-w-2xl">
-                <div className="text-center sm:text-left mb-4">
+                <div className="text-left mb-4">
                   <p className="text-lg sm:text-xl lg:text-2xl font-light text-neon-green glow-green italic">
                     "Don't call it moments, call it life"
                   </p>
