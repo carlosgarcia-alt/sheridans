@@ -32,6 +32,12 @@ export default function Header() {
               
               {isDropdownOpen && (
                 <div className="absolute top-full left-0 w-44 bg-black/95 backdrop-blur-md border border-neon-pink/30 rounded-lg shadow-2xl overflow-hidden">
+                  <a href="/servicios" className="block text-white hover:text-neon-pink hover:bg-gradient-to-r hover:from-purple/30 hover:to-neon-pink/20 px-4 py-3 text-xs sm:text-sm transition-all duration-200 border-b border-purple/20 last:border-b-0">
+                    <div className="flex items-center gap-2">
+                      <span>⚡</span>
+                      Servicios
+                    </div>
+                  </a>
                   <a href="/menu" className="block text-white hover:text-neon-pink hover:bg-gradient-to-r hover:from-purple/30 hover:to-neon-pink/20 px-4 py-3 text-xs sm:text-sm transition-all duration-200 border-b border-purple/20 last:border-b-0">
                     <div className="flex items-center gap-2">
                       <span>🍸</span>
