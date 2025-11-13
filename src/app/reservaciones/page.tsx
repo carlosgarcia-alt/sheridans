@@ -26,7 +26,10 @@ export default function Reservaciones() {
 
           {/* Contact Form */}
           <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 border border-purple/30 mb-16">
-            <h2 className="text-3xl font-bold text-neon-pink mb-8 text-center">Formulario de Contacto</h2>
+            <h2 className="text-3xl font-bold text-neon-pink mb-4 text-center">Formulario de Contacto</h2>
+            <p className="text-center text-gray-300 mb-8 italic">
+              Completa el formulario y nosotros nos comunicaremos directamente contigo para coordinar todos los detalles de tu evento.
+            </p>
             
             <form className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
