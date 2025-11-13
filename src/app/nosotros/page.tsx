@@ -28,7 +28,7 @@ export default function Nosotros() {
           <div className="space-y-12">
             
             {/* Our Story */}
-            <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 border border-purple/30">
+            <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 border border-purple/30 animate-fade-in-up hover:border-neon-pink/50 transition-all duration-300 hover:transform hover:scale-[1.02]">
               <h2 className="text-3xl font-bold text-neon-pink mb-6">Nuestra Historia</h2>
               <p className="text-lg text-gray-300 leading-relaxed mb-4">
                 Desde 2023, Sheridan's nació como un bar pensado para nuestros amigos: un espacio donde la coctelería se mezcla con la espontaneidad de la calle, la vibra de la fiesta, la creatividad y la pasión. Surgimos con la intención de convertir nuestro lugar en el favorito de todos, gracias a nuestro estilo y a nuestro sabor. Hoy, llevamos esa misma experiencia directamente a tu evento.
@@ -39,7 +39,7 @@ export default function Nosotros() {
             </div>
 
             {/* Our Mission */}
-            <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 border border-purple/30">
+            <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 border border-purple/30 animate-fade-in-up delay-300 hover:border-neon-green/50 transition-all duration-300 hover:transform hover:scale-[1.02]">
               <h2 className="text-3xl font-bold text-neon-green mb-6">Nuestra Misión</h2>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Romper con la coctelería tradicional a traves de nuestros sabores, definiendo una nueva propuesta con mezclas creativas, una vibra fresca y detalles que convierten cualquier evento en algo fuera de lo común.
@@ -48,8 +48,8 @@ export default function Nosotros() {
 
             {/* Values */}
             <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center">
-                <div className="text-purple mb-4 drop-shadow-[0_0_10px_rgba(147,51,234,0.8)]">
+              <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center animate-fade-in-up delay-500 hover:border-purple/60 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-purple mb-4 drop-shadow-[0_0_10px_rgba(147,51,234,0.8)] hover:drop-shadow-[0_0_20px_rgba(147,51,234,1)] transition-all duration-300">
                   <svg className="w-12 h-12 mx-auto" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                   </svg>
@@ -58,8 +58,8 @@ export default function Nosotros() {
                 <p className="text-gray-300">Sabores originales que mezclan lo mejor de la calle con un estilo moderno y detallado.</p>
               </div>
               
-              <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center">
-                <div className="text-purple mb-4 drop-shadow-[0_0_10px_rgba(147,51,234,0.8)]">
+              <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center animate-fade-in-up delay-700 hover:border-purple/60 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-purple mb-4 drop-shadow-[0_0_10px_rgba(147,51,234,0.8)] hover:drop-shadow-[0_0_20px_rgba(147,51,234,1)] transition-all duration-300">
                   <svg className="w-12 h-12 mx-auto" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                   </svg>
@@ -68,8 +68,8 @@ export default function Nosotros() {
                 <p className="text-gray-300">Una barra que transforma cualquier evento en algo diferente, memorable y lleno de buena vibra.</p>
               </div>
               
-              <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center">
-                <div className="text-purple mb-4 drop-shadow-[0_0_10px_rgba(147,51,234,0.8)]">
+              <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center animate-fade-in-up delay-900 hover:border-purple/60 transition-all duration-300 hover:transform hover:scale-105">
+                <div className="text-purple mb-4 drop-shadow-[0_0_10px_rgba(147,51,234,0.8)] hover:drop-shadow-[0_0_20px_rgba(147,51,234,1)] transition-all duration-300">
                   <svg className="w-12 h-12 mx-auto" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                   </svg>
