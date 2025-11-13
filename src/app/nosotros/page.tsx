@@ -11,9 +11,13 @@ export default function Nosotros() {
           
           {/* Title */}
           <div className="text-center mb-16">
-            <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
-              <span className="text-neon-pink glow-pink">Nosotros</span>
-            </h1>
+            <div className="mb-6">
+              <img 
+                src="/sheridans-title.png" 
+                alt="Sheridan's" 
+                className="mx-auto h-24 lg:h-32 w-auto"
+              />
+            </div>
             <p className="text-xl lg:text-2xl text-neon-green glow-green">
               La historia detrás de cada trago
             </p>
