@@ -11,7 +11,7 @@ export default function Home() {
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-6">
-              <h1 className="text-6xl lg:text-8xl leading-tight -ml-4">
+              <h1 className="text-6xl lg:text-8xl leading-tight ml-1">
                 <img 
                   src="/sheridans-title.png" 
                   alt="Sheridans" 
