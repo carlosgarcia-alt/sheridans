@@ -27,23 +27,19 @@ export default function Home() {
               
               <div className="bg-gradient-to-r from-neon-pink/20 to-purple/20 backdrop-blur-sm p-4 rounded-full border border-neon-pink/30 glow-pink inline-block">
                 <span className="text-neon-pink font-bold text-lg glow-pink">Since 2023</span>
-                <span className="text-white ml-2">Creando experiencias</span>
               </div>
             </div>
             
             {/* Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
               <div className="text-center">
-                <div className="text-neon-green text-3xl font-bold">Premium</div>
-                <div className="text-gray-400">Cócteles Únicos</div>
+                <div className="text-neon-green text-3xl font-bold">Cócteles Únicos</div>
               </div>
               <div className="text-center">
-                <div className="text-neon-pink text-3xl font-bold">Vibes</div>
-                <div className="text-gray-400">Noches Inolvidables</div>
+                <div className="text-neon-pink text-3xl font-bold">Noches Inolvidables</div>
               </div>
               <div className="text-center">
-                <div className="text-purple text-3xl font-bold">Style</div>
-                <div className="text-gray-400">Experiencia Total</div>
+                <div className="text-purple text-3xl font-bold">Experiencia Total</div>
               </div>
             </div>
           </div>
