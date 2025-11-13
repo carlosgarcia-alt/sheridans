@@ -74,7 +74,7 @@ export default function Nosotros() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3">Estilo</h3>
-                <p className="text-gray-300">Presentación, servicio y ambiente</p>
+                <p className="text-gray-300">Presentación, servicio y ambiente que elevan cada momento con un toque único.</p>
               </div>
             </div>
 
