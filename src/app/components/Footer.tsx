@@ -65,14 +65,8 @@ export default function Footer() {
               <a href="/nosotros" className="block text-gray-300 hover:text-neon-pink transition-colors text-sm">
                 Nosotros
               </a>
-              <a href="/menu" className="block text-gray-300 hover:text-neon-pink transition-colors text-sm">
-                Menú
-              </a>
               <a href="/servicios" className="block text-gray-300 hover:text-neon-pink transition-colors text-sm">
                 Servicios
-              </a>
-              <a href="/galeria" className="block text-gray-300 hover:text-neon-pink transition-colors text-sm">
-                Galería
               </a>
               <a href="/reservaciones" className="block text-gray-300 hover:text-neon-pink transition-colors text-sm">
                 Reservaciones
