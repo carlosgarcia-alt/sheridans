@@ -6,14 +6,16 @@ export default function Footer() {
           
           {/* Identidad */}
           <div className="lg:col-span-2">
-            <div className="mb-4">
+            <div className="mb-6">
               <img 
                 src="/sheridans-title.png" 
                 alt="Sheridan's" 
-                className="h-12 w-auto mb-2"
+                className="h-12 w-auto mb-3"
               />
-              <p className="text-white font-medium">Barra Móvil & Coctelería</p>
-              <p className="text-neon-pink text-sm italic mt-2">"Don't call it moments, call it life"</p>
+              <p className="text-white font-medium mb-3">Barra Móvil & Coctelería</p>
+              <p className="text-neon-pink text-lg italic font-medium">
+                "Don't call it moments, call it life"
+              </p>
             </div>
           </div>
 
