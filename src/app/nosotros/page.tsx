@@ -48,21 +48,21 @@ export default function Nosotros() {
             {/* Values */}
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center">
-                <div className="text-neon-pink text-4xl mb-4">🍸</div>
-                <h3 className="text-xl font-bold text-white mb-3">Calidad</h3>
-                <p className="text-gray-300">Ingredientes premium y técnicas artesanales en cada preparación</p>
+                <div className="text-neon-pink text-4xl mb-4">🥃</div>
+                <h3 className="text-xl font-bold text-white mb-3">Sabor</h3>
+                <p className="text-gray-300">Sabores originales que mezclan lo mejor de la calle con un estilo moderno y detallado.</p>
               </div>
               
               <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center">
-                <div className="text-neon-green text-4xl mb-4">✨</div>
-                <h3 className="text-xl font-bold text-white mb-3">Creatividad</h3>
-                <p className="text-gray-300">Innovación constante en sabores y presentaciones únicas</p>
-              </div>
-              
-              <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center">
-                <div className="text-purple text-4xl mb-4">🎉</div>
+                <div className="text-neon-green text-4xl mb-4">⚡</div>
                 <h3 className="text-xl font-bold text-white mb-3">Experiencia</h3>
-                <p className="text-gray-300">Cada visita es una celebración de la vida y los buenos momentos</p>
+                <p className="text-gray-300">Una barra que transforma cualquier evento en algo diferente, memorable y lleno de buena vibra.</p>
+              </div>
+              
+              <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-6 border border-purple/30 text-center">
+                <div className="text-purple text-4xl mb-4">💎</div>
+                <h3 className="text-xl font-bold text-white mb-3">Estilo</h3>
+                <p className="text-gray-300">Presentación, servicio y ambiente</p>
               </div>
             </div>
 
