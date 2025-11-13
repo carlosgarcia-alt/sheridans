@@ -37,17 +37,6 @@ export default function Reservaciones() {
             </p>
           </div>
 
-          {/* Success Message */}
-          {showSuccess && (
-            <div className="bg-neon-green/20 border border-neon-green/50 rounded-2xl p-6 mb-8 text-center animate-fade-in-up">
-              <div className="text-neon-green text-4xl mb-4">✅</div>
-              <h3 className="text-xl font-bold text-white mb-2">¡Solicitud Enviada!</h3>
-              <p className="text-gray-300">
-                Pronto nos pondremos en contacto contigo para coordinar todos los detalles. ¡Gracias por confiar en nosotros!
-              </p>
-            </div>
-          )}
-
           {/* Contact Form */}
           <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 border border-purple/30 mb-16 animate-fade-in-up delay-300 hover:border-neon-pink/50 transition-all duration-300">
             <h2 className="text-3xl font-bold text-neon-pink mb-4 text-center">Formulario de Contacto</h2>
@@ -144,6 +133,17 @@ export default function Reservaciones() {
               </div>
             </form>
           </div>
+
+          {/* Success Message */}
+          {showSuccess && (
+            <div className="bg-neon-green/20 border border-neon-green/50 rounded-2xl p-6 mb-8 text-center animate-fade-in-up">
+              <div className="text-neon-green text-4xl mb-4">✅</div>
+              <h3 className="text-xl font-bold text-white mb-2">¡Solicitud Enviada!</h3>
+              <p className="text-gray-300">
+                Pronto nos pondremos en contacto contigo para coordinar todos los detalles. ¡Gracias por confiar en nosotros!
+              </p>
+            </div>
+          )}
 
           {/* Contact Info */}
           <div className="grid md:grid-cols-2 gap-8 mb-16">
