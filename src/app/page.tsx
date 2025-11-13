@@ -29,15 +29,15 @@ export default function Home() {
                 {/* Features */}
                 <div className="flex items-center gap-8">
                   <div className="text-center">
-                    <div className="text-neon-green text-3xl">Cócteles Únicos</div>
+                    <div className="text-neon-green text-2xl">Cócteles Únicos</div>
                   </div>
                   <div className="w-px h-12 bg-gray-400"></div>
                   <div className="text-center">
-                    <div className="text-neon-pink text-3xl">Noches Inolvidables</div>
+                    <div className="text-neon-pink text-2xl">Noches Inolvidables</div>
                   </div>
                   <div className="w-px h-12 bg-gray-400"></div>
                   <div className="text-center">
-                    <div className="text-purple text-3xl">Experiencia Total</div>
+                    <div className="text-purple text-2xl">Experiencia Total</div>
                   </div>
                 </div>
               </div>
