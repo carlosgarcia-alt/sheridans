@@ -1,7 +1,20 @@
+'use client';
+import { useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export default function Reservaciones() {
+  const [showSuccess, setShowSuccess] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setShowSuccess(true);
+    // Hide success message after 5 seconds
+    setTimeout(() => {
+      setShowSuccess(false);
+    }, 5000);
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-dark-purple via-purple to-dark-purple">
       <Header />
@@ -24,6 +37,17 @@ export default function Reservaciones() {
             </p>
           </div>
 
+          {/* Success Message */}
+          {showSuccess && (
+            <div className="bg-neon-green/20 border border-neon-green/50 rounded-2xl p-6 mb-8 text-center animate-fade-in-up">
+              <div className="text-neon-green text-4xl mb-4">✅</div>
+              <h3 className="text-xl font-bold text-white mb-2">¡Solicitud Enviada!</h3>
+              <p className="text-gray-300">
+                Pronto nos pondremos en contacto contigo para coordinar todos los detalles. ¡Gracias por confiar en nosotros!
+              </p>
+            </div>
+          )}
+
           {/* Contact Form */}
           <div className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 border border-purple/30 mb-16 animate-fade-in-up delay-300 hover:border-neon-pink/50 transition-all duration-300">
             <h2 className="text-3xl font-bold text-neon-pink mb-4 text-center">Formulario de Contacto</h2>
@@ -31,7 +55,7 @@ export default function Reservaciones() {
               Completa el formulario y nosotros nos comunicaremos directamente contigo para coordinar todos los detalles de tu evento y proporcionarte una cotización personalizada.
             </p>
             
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="animate-fade-in delay-500">
                   <label className="block text-white font-medium mb-2">Nombre Completo</label>
