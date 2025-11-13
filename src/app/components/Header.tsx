@@ -5,10 +5,10 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-1"></div>
           <div className="flex space-x-8">
-            <a href="#inicio" className="text-white hover:text-neon-pink px-3 py-2 text-sm font-medium transition-colors">
+            <a href="/" className="text-white hover:text-neon-pink px-3 py-2 text-sm font-medium transition-colors">
               Inicio
             </a>
-            <a href="#nosotros" className="text-white hover:text-neon-pink px-3 py-2 text-sm font-medium transition-colors">
+            <a href="/nosotros" className="text-white hover:text-neon-pink px-3 py-2 text-sm font-medium transition-colors">
               Nosotros
             </a>
             <a href="#paquetes" className="text-white hover:text-neon-pink px-3 py-2 text-sm font-medium transition-colors">
