@@ -12,14 +12,14 @@ export default function Nosotros() {
           
           {/* Title */}
           <div className="text-center mb-16">
-            <div className="mb-6">
+            <div className="mb-6 animate-fade-in-up">
               <img 
                 src="/sheridans-title.png" 
                 alt="Sheridan's" 
-                className="mx-auto h-24 lg:h-32 w-auto"
+                className="mx-auto h-24 lg:h-32 w-auto hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <p className="text-xl lg:text-2xl text-neon-green glow-green">
+            <p className="text-xl lg:text-2xl text-neon-green glow-green animate-fade-in delay-300">
               La historia detrás de cada trago
             </p>
           </div>
