@@ -15,9 +15,6 @@ export default function Footer() {
               <p className="text-white font-medium">Barra Móvil & Coctelería</p>
               <p className="text-neon-pink text-sm italic mt-2">"Don't call it moments, call it life"</p>
             </div>
-            <p className="text-neon-green text-sm font-medium">
-              "Disponible para todo tipo de eventos sociales"
-            </p>
           </div>
 
           {/* Contacto */}
@@ -62,7 +59,6 @@ export default function Footer() {
 
           {/* Enlaces útiles */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Enlaces Útiles</h3>
             <div className="space-y-2">
               <a href="/" className="block text-gray-300 hover:text-neon-pink transition-colors text-sm">
                 Inicio
