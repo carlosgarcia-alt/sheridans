@@ -12,7 +12,7 @@ export default function Home() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight">
-                <span className="text-neon-pink glow-pink">Sheridan's</span>
+                <span className="text-neon-pink neon-signature">Sheridan's</span>
               </h1>
               
               <div className="space-y-4 max-w-2xl">
