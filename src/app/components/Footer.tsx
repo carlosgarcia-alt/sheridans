@@ -13,9 +13,6 @@ export default function Footer() {
                 className="h-12 w-auto mb-3"
               />
               <p className="text-white font-medium mb-3">Barra Móvil & Coctelería</p>
-              <p className="text-neon-pink text-lg italic font-medium">
-                "Don't call it moments, call it life"
-              </p>
             </div>
           </div>
 
@@ -87,6 +84,9 @@ export default function Footer() {
 
         {/* Derechos y legal */}
         <div className="border-t border-purple/30 mt-8 pt-6 text-center">
+          <p className="text-neon-pink text-lg italic font-medium mb-3">
+            "Don't call it moments, call it life"
+          </p>
           <p className="text-gray-400 text-sm">
             © 2025 Sheridans. Todos los derechos reservados.
           </p>
