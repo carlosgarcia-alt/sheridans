@@ -40,7 +40,7 @@ export default function Header() {
                   </a>
                   <a href="/paquetes" className="block text-white hover:text-neon-pink hover:bg-gradient-to-r hover:from-purple/30 hover:to-neon-pink/20 px-4 py-3 text-xs sm:text-sm transition-all duration-200 border-b border-purple/20 last:border-b-0">
                     <div className="flex items-center gap-2">
-                      <span>📦</span>
+                      <span>✅</span>
                       Paquetes
                     </div>
                   </a>
