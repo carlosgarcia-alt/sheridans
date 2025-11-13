@@ -4,17 +4,17 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-1"></div>
-          <div className="flex space-x-8">
-            <a href="/" className="text-white hover:text-neon-pink px-3 py-2 text-sm font-medium transition-colors">
+          <div className="flex space-x-2 sm:space-x-4 lg:space-x-8">
+            <a href="/" className="text-white hover:text-neon-pink px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium transition-colors">
               Inicio
             </a>
-            <a href="/nosotros" className="text-white hover:text-neon-pink px-3 py-2 text-sm font-medium transition-colors">
+            <a href="/nosotros" className="text-white hover:text-neon-pink px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium transition-colors">
               Nosotros
             </a>
-            <a href="/servicios" className="text-white hover:text-neon-pink px-3 py-2 text-sm font-medium transition-colors">
+            <a href="/servicios" className="text-white hover:text-neon-pink px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium transition-colors">
               Servicios
             </a>
-            <a href="/reservaciones" className="bg-gradient-to-r from-neon-pink to-purple hover:from-purple hover:to-neon-pink text-white px-4 py-2 rounded-md text-sm font-medium transition-all">
+            <a href="/reservaciones" className="bg-gradient-to-r from-neon-pink to-purple hover:from-purple hover:to-neon-pink text-white px-3 sm:px-4 py-2 rounded-md text-xs sm:text-sm font-medium transition-all">
               Reservaciones
             </a>
           </div>
