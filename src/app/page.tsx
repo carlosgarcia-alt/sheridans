@@ -12,7 +12,11 @@ export default function Home() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-6xl lg:text-8xl leading-tight">
-                <span className="neon-tube">Sheridans</span>
+                <img 
+                  src="/sheridans-title.jpeg" 
+                  alt="Sheridans" 
+                  className="h-20 lg:h-32 object-contain mix-blend-screen"
+                />
               </h1>
               
               <div className="space-y-4 max-w-2xl">
